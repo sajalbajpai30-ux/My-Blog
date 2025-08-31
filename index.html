@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">My Blog</div>
+        <nav class="navbar">
+            <button class="nav-link active" onclick="openTab('home')">Home</button>
+            <button class="nav-link" onclick="openTab('blog')">Blog</button>
+            <button class="nav-link" onclick="openTab('about')">About</button>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section id="home" class="tab-content active">
+            <h1>Welcome to My Professional Blog!</h1>
+            <p>This is the home page. Here you'll find an overview of the content and the latest updates.</p>
+        </section>
+
+        <section id="blog" class="tab-content">
+            <h2>Latest Posts</h2>
+            <article class="blog-post">
+                <h3>Post Title 1</h3>
+                <p>This is the content of the first blog post. It's a short summary of the article.</p>
+                <a href="#">Read More</a>
+            </article>
+            <article class="blog-post">
+                <h3>Post Title 2</h3>
+                <p>This is the content of the second blog post. It continues with a brief description.</p>
+                <a href="#">Read More</a>
+            </article>
+        </section>
+
+        <section id="about" class="tab-content">
+            <h2>About Us</h2>
+            <p>This page provides information about the author or the blog's purpose. We are dedicated to sharing professional insights on various topics.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
